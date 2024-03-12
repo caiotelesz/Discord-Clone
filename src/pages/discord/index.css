@@ -1,0 +1,446 @@
+body {
+  background-color: #c2c2c2;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.secao1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 160px 20px;
+  gap: 110px;
+
+  color: #fff;
+  background-color: #404eed;
+  background-image: url("/public/assets/images/discord-banner3.svg");
+  background-size: cover;
+  background-position: -350px;
+}
+
+.secao1 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 25px 0px;
+}
+
+.secao1 header > a {
+  font: 700 14px "Discord";
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+.discord-photo {
+  width: 100%;
+  max-width: 124px;
+}
+
+.secao1 header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  font: 600 16px "Discord";
+
+  list-style-type: none;
+}
+
+.secao1 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.secao1 main h1 {
+  text-align: center;
+  font: 800 56px "Discord";
+  text-transform: uppercase;
+}
+
+.secao1 main p {
+  text-align: center;
+  font: 400 20px "Discord";
+  line-height: 160%;
+  padding: 0px 10px;
+}
+
+.secao1 main div {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.secao1 > div {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  max-height: 320px;
+  justify-content: space-between;
+  bottom: 280px;
+}
+
+.secao1 main div :nth-child(1) {
+  display: flex;
+  align-items: center;
+
+  font: 500 21px "Discord";
+
+  background-color: #fff;
+  color: #000;
+
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+.secao1 main div :nth-child(2) {
+  display: flex;
+  align-items: center;
+
+  font: 500 21px "Discord";
+
+  background-color: hsl(0, 0%, 0%);
+  color: #fff;
+
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+/* Part 2 */
+.secao2 {
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 45px;
+  gap: 80px;
+}
+
+.secao2 .info2 {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  gap: 30px;
+}
+
+.secao2 img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.secao2 h1 {
+  font: 700 48px "Discord";
+  line-height: 100%;
+}
+
+.secao2 p {
+  font: 400 20px "Discord";
+  line-height: 140%;
+}
+
+/* Part 3 */
+.secao3 {
+  background-color: #f6f6f6;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 45px;
+  gap: 80px;
+}
+
+.secao3 .info3 {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  gap: 30px;
+}
+
+.secao3 img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.secao3 h1 {
+  font: 700 48px "Discord";
+  line-height: 100%;
+}
+
+.secao3 p {
+  font: 400 20px "Discord";
+  line-height: 140%;
+}
+
+/* Part 4 */
+.secao4 {
+  background-color: #f6f6f6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 120px 0px;
+  gap: 40px;
+}
+
+.secao4 > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 90px;
+  width: 900px;
+}
+
+.secao4 h1 {
+  font: 800 35px "Discord";
+  line-height: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.secao4 p {
+  font: 500 18px "Discord";
+  line-height: 140%;
+  text-align: center;
+}
+
+.secao4 img {
+  width: 100%;
+  max-width: 1180px;
+  height: 100%;
+  max-height: 719px;
+}
+
+.secao4 main {
+  background-image: url("/public/assets/images/discord-background2.svg");
+  background-size: contain;
+}
+
+.secao4 main h1 {
+  font: 700 35px "Discord";
+}
+
+.secao4 main div img {
+  display: flex;
+  height: 40px;
+  color: #fff;
+  padding: 0px 0px;
+}
+
+.secao4 main div :nth-child(1) {
+  display: flex;
+  justify-content: center;
+
+  font: 400 18px "Discord";
+
+  padding: 10px 30px;
+  border-radius: 50px;
+
+  width: fit-content;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #5865f2;
+  border-radius: 28px;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+/* Part 5 */
+
+footer {
+  background-color: #23272A;
+  padding: 100px 100px 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .center {
+  width: auto;
+  max-width: 1180px;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-footer {
+  color: #fff;
+}
+
+.language {
+  display: flex;
+  font: 400 17px "Discord";
+  color: #fff;
+}
+
+.container-menu-footer { font: 400 16px "Discord"; }
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+}
+
+.container-wrap {
+  display: flex;
+}
+
+.menu-footer ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+
+.menu-footer ul li { margin: 10px 0; }
+
+.menu-footer ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-footer ul a:hover {
+  text-decoration: underline;
+}
+
+.menu-footer span {
+  margin-bottom: 10px;
+  color: #5865f2;
+}
+
+.footer-down {
+  margin-top: 40px;
+  border-top: #5865f2 solid 1px;
+  color: #fff;
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.footer-down button {
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: 0;
+}
+
+/* Responsivo */
+
+@media (max-width: 991px) {
+  .secao1 { background-image: none;}
+  .secao1 header { width: 700px; }
+  .secao1 header ul{ display: none; }
+  .secao1 main{
+    grid-column: 3 / span 8;
+    text-align: center;
+  }
+  .secao1 > div { 
+    bottom: 180px;
+    max-height: 230px;
+  }
+  .banner-img2 { opacity: 0;}
+
+  .secao2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .secao2 img { max-width: 800px; }
+  .secao2 .info2 { width: 100%; }
+  .secao2 h1 { font-size: 24px; }
+
+  .secao3 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .secao3 img { max-width: 700px; }
+  .secao3 .info3 { width: 100%; }
+  .secao3 h1 { font-size: 24px; }
+
+  .secao4 { gap: 20px; }
+  .secao4 img { max-width: 900px; }
+  .secao4 header { width: 90%; }
+  .secao4 header h1 { font-size: 36px; }
+  .secao4 main h1 { padding-bottom: 15px; }
+
+  footer { padding: 30px; }
+  .footer-up {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+  .social-footer { width: 50%; }
+  nav.menu-footer { width: 50%; }
+  nav.menu-footer ul {
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+  .container-menu-footer { width: 50%; }
+}
+
+@media (max-width: 768px) {
+  .secao1{ min-height: 62.6rem; }
+  .secao1 header { width: 500px; }
+  .secao1 main{ grid-column: span 5; }
+  .secao1 main p{ margin: 4rem 0 0.8rem; }
+  .secao1 > div { 
+    bottom: -200px;
+    max-height: 230px;
+  }
+
+  .secao2 { padding: 120px 20px; }
+  .secao2 h1 { font-size: 24px; }
+  .secao2 p { font-size: 16px; }
+
+  .secao3 { padding: 120px 20px; }
+  .secao3 h1 { font-size: 24px; }
+  .secao3 p { font-size: 16px; }
+
+  .secao4 { padding: 120px 20px; }
+  .secao4 header h1 { font-size: 24px; }
+  .secao4 header p { font-size: 16px; }
+
+  .secao5 main { flex-direction: column; }
+  .secao5 .socials {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  footer {padding: 120px 30px 80px 30px; }
+  .footer-up {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+  }
+  nav.menu-footer {
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .container-menu-footer { margin-right: 10px; }
+}
